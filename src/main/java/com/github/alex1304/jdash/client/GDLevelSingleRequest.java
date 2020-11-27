@@ -33,6 +33,8 @@ class GDLevelSingleRequest extends AbstractGDRequest<GDLevel> {
 	@Override
 	void putParams(Map<String, String> params) {
 		params.put("levelID", "" + levelId);
+		params.put("inc", "0");
+		params.put("extras", "0");
 	}
 
 	@Override

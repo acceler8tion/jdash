@@ -27,6 +27,8 @@ class GDLevelDataRequest extends AbstractGDRequest<GDLevelData> {
 	@Override
 	void putParams(Map<String, String> params) {
 		params.put("levelID", "" + levelId);
+		params.put("inc", "0");
+		params.put("extras", "1");
 	}
 
 	@Override

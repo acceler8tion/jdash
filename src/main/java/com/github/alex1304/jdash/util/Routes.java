@@ -15,6 +15,8 @@ public final class Routes {
 	public static final String USER_SCORES = "/getGJScores20.php";
 	public static final String GET_USER_COMMENTS = "/getGJAccountComments20.php";
 	public static final String DOWNLOAD_LEVEL = "/downloadGJLevel22.php";
+	public static final String UPLOAD_LEVEL = "/uploadGJLevel21.php";
+	public static final String DELETE_LEVEL = "/deleteGJLevelUser20.php";
 	public static final String GET_LEVEL_COMMENTS = "/getGJComments21.php";
 	public static final String LEVEL_SEARCH = "/getGJLevels21.php";
 	public static final String RATE_LEVEL_STARS = "/rateGJStars211.php";
